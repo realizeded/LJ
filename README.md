@@ -34,7 +34,7 @@ lib目录下为LJ代码.为了更好的开发,使用webpack模块打包器,
 index.js
 ````
 import LJ from "./lib/instance/index.js";
-window.vm = new LJ({
+new LJ({
   el:"#app",
   data:{
       msg:'344'
